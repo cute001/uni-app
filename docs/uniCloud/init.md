@@ -22,7 +22,7 @@ function init(options):uniCloud
 
 |参数名				|类型		|必填				|默认值	|说明																								|
 |:-:					|:-:		|:-:				|:-:		|:-:																								|
-|provider			|String	|是					|-			|目前仅支持aliyun					|
+|provider			|String	|是					|-			|目前仅支持aliyun和tencent					|
 |spaceId			|String	|是					|-			|服务空间ID，**注意是服务空间ID，不是服务空间名称**	|
 |clientSecret	|String	|是	|-			|仅阿里云支持，可以在[uniCloud控制台](https://unicloud.dcloud.net.cn)服务空间列表中查看				|
 |debugFunction|Boolean|否					|true										|是否启用云函数日志输出，仅开发阶段生效，平台支持：APP、H5(使用`HBuilderX`内置浏览器获得更好的调试体验)	|
